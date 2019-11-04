@@ -9,42 +9,26 @@
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-        <link type="text/css" rel="stylesheet" href="src/css/style.css"/>
+        <link type="text/css" rel="stylesheet" href="src/css/intro.css"/>
 
         <title>Raimu</title>
     </head>
 
     <body>
-        <img id="logo" src="src/images/raimuLogo2.jpg" alt="raimu" width=360 height=120>
-
-        <nav class="navbar navbar-expand-md navbar-light justify-content-left">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="fa fa-bars w3-xlarge"></span>
-            </button>
-
-            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                <div class="nav navbar-nav" id="nav-tab" role="tablist">
-                    <hr>
-                    <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">HOME</a>
-                    <a class="nav-item nav-link" id="nav-about-tab" data-toggle="tab" href="#nav-about" role="tab" aria-controls="nav-about" aria-selected="false">ABOUT</a>
-                    <a class="nav-item nav-link" id="nav-shop-tab" data-toggle="tab" href="#nav-shop" role="tab" aria-controls="nav-shop" aria-selected="false">SHOP</a>
-                    <a class="nav-item nav-link" id="nav-studio-tab" data-toggle="tab" href="#nav-studio" role="tab" aria-controls="nav-studio" aria-selected="false">STUDIO</a>
-                    <hr>
-                </div>
+        <div class="jumbotron jumbotron-fluid d-flex align-items-center min-vh-100 ">
+                <img id="logo" src="src/images/raimuClear2.png" alt="raimu">
+            <div class="container">
+                <video autoplay muted loop id="myVideo"  onclick="window.location.href='home.html'">
+                    <source src="src/videos/blueOcean.mp4" type="video/mp4">
+                        Your browser does not support HTML5 video.
+                </video>
             </div>
-        </nav>
-
-              <div class="tab-content" id="nav-tabContent">
-                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">hi</div>
-                    <div class="tab-pane fade" id="nav-about" role="tabpanel" aria-labelledby="nav-about-tab">hello</div>
-                    <div class="tab-pane fade" id="nav-shop" role="tabpanel" aria-labelledby="nav-shop-tab">hola</div>
-                    <div class="tab-pane fade" id="nav-studio" role="tabpanel" aria-labelledby="nav-studio-tab">hey</div>
-                  </div>
-        
+        </div>
 
 
 
-        <script type="text/javascript" src="src/js/script.js"></script>
+
+        <script type="text/javascript" src="/src/js/script.js"></script>
         <script
         src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
