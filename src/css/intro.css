@@ -16,8 +16,10 @@ body {
     width: 74%;
     padding: 0px;
     border: 0px;
-    
+}
 
+video:hover {
+    cursor: pointer;
 }
 
 video {
