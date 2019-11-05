@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    background-color: black;
+    background-color: white;
     position: fixed;
     margin: 0px;
     overflow: hidden;
@@ -34,7 +34,7 @@ video {
 }
 
 .jumbotron {
-    background-color: black;
+    background-color: white;
     margin-left: 10%;
     margin-right: 10%;
     padding-left: 10%;

@@ -12,12 +12,25 @@ html {
 } */
 
 #logo {
-    display: block;
-    margin-top: 10px;
+    position: fixed;
+    top: 3px;
+    left: 0px;
 }
 
-.navbar-expand-md {
+.nav {
     padding: 0px;
+    position: fixed;
+    z-index: 1;
+    top: 65px;
+    left: 20px;
+    background: rgb(255, 255, 255);
+    overflow-x: hidden
+}
+
+.tab-content {
+    margin-top: 55px;
+    margin-right: 60px;
+    margin-left: 65px;
 }
 
 .nav-item{
@@ -33,19 +46,15 @@ html {
     outline: none;
 }
 
-.tab-content {
-    margin-top: 30px;
-}
-
-.navbar-light .flex-column .nav-link {
+.nav-link {
     color: red;
 }
 
-.navbar-light .flex-column .nav-link:hover {
+.nav-link:hover {
     color: rgb(0, 255, 21);
 }
 
-.navbar-light .flex-column .nav-link.active {
+.nav-link.active {
     color: rgb(0, 161, 255);
 }
 
@@ -53,7 +62,6 @@ html {
     background-color: white;
     padding: 0px;
 }
-
 
 /* #raimubg {
     background-image: url("/src/images/raimuBg.jpg");
