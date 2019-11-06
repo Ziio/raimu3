@@ -28,8 +28,10 @@ html {
     font-family: 'Times New Roman', Times, serif;
     padding-right: 0px;
     padding-left: 10px;
+    padding-top: 0px;
     font-size: 15px;
     margin-bottom: 20px;
+    margin-top: 0px;
 }
 
 .navbar-light .navbar-toggler {
