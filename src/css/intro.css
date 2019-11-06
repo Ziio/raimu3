@@ -17,9 +17,15 @@ body {
     bottom: 0px;
     width: 100%;
 }
+a {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
 
 #logo {
     display: block;
+    margin-top: -1%;
     margin-left: -7%;
     position: fixed;
     height: auto;
