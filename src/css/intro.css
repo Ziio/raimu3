@@ -3,6 +3,11 @@ html {
     overflow: hidden;
 }
 
+h1 {
+    position: fixed;
+    top: 450px;
+}
+
 body {
     background-color: white;
     position: fixed;
